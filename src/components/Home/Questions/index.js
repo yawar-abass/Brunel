@@ -5,8 +5,8 @@ import Faqs from "./Faqs";
 
 const QuestionsComponent = () => {
   return (
-    <div className="bg-[#E8EEE7] xl:mx-20 rounded-[40px] mb-10 mt-40 flex flex-col md:flex-row ">
-      <div className="md:w-1/2">
+    <div className="bg-[#E8EEE7] xl:mx-20 rounded-[40px] mb-10 mt-40 flex flex-col xl:flex-row ">
+      <div className="xl:w-1/2">
         <div className="p-10 md:p-20">
           <h4
             className={`${covered_font.className} leading-[110%] text-3xl text-[#9E9D9D]`}
@@ -23,11 +23,11 @@ const QuestionsComponent = () => {
             alt="Brute"
             width={400}
             height={300}
-            className="md:w-fit h-52 md:h-fit"
+            className="xl:w-fit  h-52 md:h-96 w-full xl:h-fit"
           />
         </div>
       </div>
-      <div className="flex items-center md:w-1/2 justify-center">
+      <div className="flex items-center xl:w-1/2 justify-center">
         <Faqs />
       </div>
     </div>

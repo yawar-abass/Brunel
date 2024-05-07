@@ -8,11 +8,11 @@ import CarouselDots from "@/components/ui/CarouselDots";
 
 const Hero = () => {
   return (
-    <div className=" my-20 xl:mx-40 ">
+    <div className=" my-20 2xl:mx-40 ">
       <Heading />
-      <div className="flex relative  w-full  flex-wrap pt-28 justify-center gap-20 xl:gap-48 mb-20 bg-[url('/img/hero-right-bg.png')] bg-right-bottom bg-no-repeat  ">
+      <div className="flex relative  w-full  flex-wrap pt-28 justify-center gap-20   xl:gap-48 mb-20 bg-[url('/img/hero-right-bg.png')] bg-right-bottom bg-no-repeat  ">
         {/* Left section  */}
-        <div className="md:relative ml-6 ">
+        <div className="md:relative mx-2 md:mx-0 md:ml-6  ">
           <Image
             src="/img/hero.png"
             width={500}
@@ -37,14 +37,14 @@ const Hero = () => {
           <GreenCard />
         </div>
         {/* Right section */}
-        <div className="mx-3 md:mx-0 md:w-1/3 flex flex-wrap  md:mt-20 flex-col ">
+        <div className="mx-3 md:mx-40 xl:mx-0 xl:w-1/3 flex flex-wrap  xl:mt-20 flex-col ">
           <h4 className="text-[40px] font-semibold leading-[120%]">
             Enhance fortune 50 company’s insights teams research capabilities
           </h4>
 
           <CarouselDots className="mt-16" />
 
-          <PrimaryBtn className="mt-10 md:mt-28  ">
+          <PrimaryBtn className="mt-10 xl:mt-28  ">
             Explore More{" "}
             <Image
               src="/img/arrow.svg"

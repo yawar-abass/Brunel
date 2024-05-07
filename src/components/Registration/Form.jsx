@@ -39,7 +39,7 @@ const Form = () => {
     <div className="flex justify-center items-center mx-auto  flex-col">
       <Heading title="Registration Form" />
       <div>
-        <h1 className="text-[56px] leading-[120%] text-center font-semibold ">
+        <h1 className="text-3xl md:text-[56px] leading-[120%] text-center font-semibold ">
           Start your success <br /> Journey here!
         </h1>
         <form
@@ -51,7 +51,7 @@ const Form = () => {
             name="name"
             value={formData.name}
             placeholder="Enter your name"
-            className="py-5 bg-[#EFEFEF] rounded-full mb-6 w-[417px]  text-lg font-medium px-10 focus:outline-[#537FF1]  "
+            className="py-5 bg-[#EFEFEF] rounded-full mb-6 md:w-[417px]  text-lg font-medium px-10 focus:outline-[#537FF1]  "
             required
             onChange={handleFormData}
           />
@@ -60,7 +60,7 @@ const Form = () => {
             name="email"
             value={formData.email}
             placeholder="Enter your email"
-            className={`py-5 bg-[#EFEFEF] rounded-full mb-2 w-[417px] text-lg font-medium px-10 focus:outline-[#537FF1] `}
+            className={`py-5 bg-[#EFEFEF] rounded-full mb-2 md:w-[417px] text-lg font-medium px-10 focus:outline-[#537FF1] `}
             required
             onChange={handleFormData}
           />
@@ -81,7 +81,7 @@ const Form = () => {
               isDisabled
                 ? "bg-[#C9C9C9]"
                 : "bg-[#1C1C1C] hover:bg-gradient-to-r hover:bg-[#4E4E4E]  transition-all ease-out duration-300"
-            } rounded-full w-[417px]  mt-12 text-lg font-medium px-10 text-white `}
+            } rounded-full md:w-[417px] w-full mt-12 text-lg font-medium px-10 text-white `}
             disabled={isDisabled}
           >
             Submit

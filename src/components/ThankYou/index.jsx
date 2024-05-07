@@ -16,6 +16,7 @@ const ThankYouCmp = () => {
   }, [router]);
 
   useEffect(() => {
+    if (time <= 0) return;
     const interval = setInterval(() => {
       setTime((prev) => prev - 1);
     }, 1000);
@@ -47,14 +48,16 @@ const ThankYouCmp = () => {
           className="h-20 w-20 mb-10 "
         />
         <Heading title="Success Submitted" />
-        <h1 className="text-[56px] font-semibold mb-3">Congratulations</h1>
-        <p className="text-2xl text-[#727272] text-center px-24 ">
+        <h1 className="text-3xl md:text-[56px] font-semibold mb-7 ">
+          Congratulations
+        </h1>
+        <p className="text-2xl text-[#727272] text-center xl:px-24 ">
           Your request has been successfully submitted to us. We will validate
           your information and reach out to your shortly with updates
         </p>
       </div>
       {/* Footer */}
-      <div className="mt-20">
+      <div className="md:mt-20">
         <p className="text-center text-[#727272]">
           Redirecting you to Homepage in{" "}
           <span className="font-bold text-black"> {time} Seconds</span>
