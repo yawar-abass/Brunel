@@ -8,11 +8,11 @@ import CarouselDots from "@/components/ui/CarouselDots";
 
 const Hero = () => {
   return (
-    <div className=" my-20  ">
+    <div className=" my-20 xl:mx-40 ">
       <Heading />
-      <div className="flex relative px-20 w-full  flex-wrap pt-28 justify-center gap-20 xl:gap-48 mb-20 bg-[url('/img/hero-right-bg.png')] bg-right-bottom bg-no-repeat  ">
+      <div className="flex relative  w-full  flex-wrap pt-28 justify-center gap-20 xl:gap-48 mb-20 bg-[url('/img/hero-right-bg.png')] bg-right-bottom bg-no-repeat  ">
         {/* Left section  */}
-        <div className="relative ml-16 ">
+        <div className="relative ml-6 ">
           <Image
             src="/img/hero.png"
             width={500}
