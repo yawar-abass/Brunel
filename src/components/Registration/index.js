@@ -1,7 +1,16 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import Topbar from "./Topbar";
+import Form from "./Form";
 
 const RegisterComponent = () => {
-  return <div>RegisterComponent</div>;
+  return (
+    <>
+      <Topbar />
+      <Form />
+    </>
+  );
 };
 
 export default RegisterComponent;

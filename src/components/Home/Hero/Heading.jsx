@@ -1,5 +1,5 @@
 import React from "react";
-import { covered_font } from "@/app/layout";
+import { covered_font } from "@/app/fonts";
 
 const Heading = () => {
   return (

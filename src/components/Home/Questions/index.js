@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { covered_font } from "@/app/layout";
+import { covered_font } from "@/app/fonts";
 import Faqs from "./Faqs";
 
 const QuestionsComponent = () => {
