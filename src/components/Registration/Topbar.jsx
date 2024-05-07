@@ -21,7 +21,7 @@ const Topbar = () => {
         className="border-2 rounded-full h-14 border-[#CACACA] items-center w-14 "
       >
         <Image
-          src="/img/cross.svg"
+          src="/img/Cross.svg"
           alt="Brunel"
           width={50}
           height={50}
