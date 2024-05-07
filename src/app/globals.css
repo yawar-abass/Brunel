@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .dot-green {
+    background-color: #2da950;
+  }
+
+  .dot-gray {
+    background-color: #e4e3e3;
+  }
+  .right-scale-120:hover {
+    transform: scaleX(1.5);
+  }
+}

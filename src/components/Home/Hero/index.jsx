@@ -2,13 +2,17 @@ import Image from "next/image";
 import React from "react";
 import WhiteCard from "./WhiteCard";
 import Heading from "./Heading";
+import GreenCard from "./GreenCard";
+import PrimaryBtn from "@/components/ui/PrimaryBtn";
+import CarouselDots from "@/components/ui/CarouselDots";
 
 const Hero = () => {
   return (
     <div className=" my-20  ">
       <Heading />
-      <div className="flex pt-28 justify-center gap-20 mb-20 ">
-        <div className="relative">
+      <div className="flex relative px-20 w-full  flex-wrap pt-28 justify-center gap-20 xl:gap-48 mb-20 bg-[url('/img/hero-right-bg.png')] bg-right-bottom bg-no-repeat  ">
+        {/* Left section  */}
+        <div className="relative ml-16 ">
           <Image
             src="/img/hero.png"
             width={500}
@@ -17,7 +21,7 @@ const Hero = () => {
             alt="Hero"
           />
           <WhiteCard />
-          <div className="h-20 shadow-lg w-64 rounded-full flex items-center  absolute  top-[78%] -left-[12%] bg-white ">
+          <div className="h-20 shadow-lg w-[230px] rounded-full flex items-center  absolute  top-[78%] -left-[12%] bg-white ">
             <Image
               src="/img/jet.png"
               width={50}
@@ -30,8 +34,27 @@ const Hero = () => {
               <p className="text-[#828282] font-medium">Staff Deployment</p>
             </div>
           </div>
+          <GreenCard />
         </div>
-        <div>Right carousel</div>
+        {/* Right section */}
+        <div className="w-1/3 flex flex-wrap  mt-20 flex-col ">
+          <h4 className="text-[40px] font-semibold leading-[120%]">
+            Enhance fortune 50 company’s insights teams research capabilities
+          </h4>
+
+          <CarouselDots className="mt-16" />
+
+          <PrimaryBtn className="mt-28  ">
+            Explore More{" "}
+            <Image
+              src="/img/arrow.svg"
+              alt="->"
+              width={50}
+              height={50}
+              className="inline w-6 h-6 pl-2 hover:right-scale-120 transition-all ease-out duration-300"
+            />{" "}
+          </PrimaryBtn>
+        </div>
       </div>
     </div>
   );

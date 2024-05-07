@@ -3,12 +3,13 @@ import React from "react";
 
 const GreenCard = () => {
   return (
-    <div className="bg-[#002E18] shadow-xl w-64 absolute top-[24%] -left-[30%] p-7  rounded-[27px]">
-      <h6 className="text-[54px] font-medium font-sans ">$0.5</h6>
-
-      <p className="text-[#828282] text-lg font-medium leading-6">
-        Achieved reduction in project execution time by optimising team
-        availability
+    <div className="bg-[#002E18] shadow-xl w-64 absolute top-[66%] text-white left-[65%] p-7  rounded-[27px]">
+      <h6 className="text-[54px] inline font-medium font-sans ">$0.5</h6>{" "}
+      <span className="uppercase text-[22px] font-medium text-[#A6A3A0] pl-2">
+        Million
+      </span>
+      <p className="text-[#CCCCCC] text-md font-medium leading-6">
+        Reduced client expenses by saving on hiring and employee costs.
       </p>
     </div>
   );
