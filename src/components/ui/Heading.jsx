@@ -1,10 +1,10 @@
 import { covered_font } from "@/app/fonts";
 import React from "react";
 
-const Heading = () => {
+const Heading = ({ title }) => {
   return (
     <h4 className={`${covered_font.className} text-4xl text-[#2DA950]`}>
-      Registration Form
+      {title}
     </h4>
   );
 };

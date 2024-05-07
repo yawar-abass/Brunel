@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Heading from "./Heading";
+import Heading from "../ui/Heading";
 import { useRouter } from "next/navigation";
 
 const Form = () => {
@@ -37,7 +37,7 @@ const Form = () => {
 
   return (
     <div className="flex justify-center items-center mx-auto  flex-col">
-      <Heading />
+      <Heading title="Registration Form" />
       <div>
         <h1 className="text-[56px] leading-[120%] text-center font-semibold ">
           Start your success <br /> Journey here!
