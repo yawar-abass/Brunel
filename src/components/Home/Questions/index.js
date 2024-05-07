@@ -5,7 +5,7 @@ import Faqs from "./Faqs";
 
 const QuestionsComponent = () => {
   return (
-    <div className="bg-[#E8EEE7] xl:mx-20 rounded-[40px] my-20 mt-40 flex ">
+    <div className="bg-[#E8EEE7] xl:mx-20 rounded-[40px] mb-10 mt-40 flex ">
       <div className="w-1/2">
         <div className="p-20">
           <h4

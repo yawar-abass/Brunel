@@ -16,7 +16,7 @@ const Navbar = () => {
         />
       </div>
       <div className="space-x-4">
-        <SecondaryBtn />
+        <SecondaryBtn href="/register" />
         <PrimaryBtn>Onboard Talent</PrimaryBtn>
       </div>
     </nav>

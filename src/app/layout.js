@@ -1,6 +1,5 @@
 import { Manrope, Covered_By_Your_Grace } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Layout/Navbar";
 
 const manrope = Manrope({ subsets: ["latin"] });
 export const covered_font = Covered_By_Your_Grace({
@@ -16,10 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={manrope.className}>
-        <Navbar />
-        {children}
-      </body>
+      <body className={manrope.className}>{children}</body>
     </html>
   );
 }
