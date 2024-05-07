@@ -55,7 +55,7 @@ I have deployed it on vercel. Here is the live url: [Live Url](https://brunel-li
 
 ## Note
 
-The Assignment is according to the design pixel perfect. Please view it in bigger screen to get the clear Design view
+> **Note:** The assignment is designed to be pixel perfect. For the best viewing experience, please open it on a larger screen.
 
 ```
 
