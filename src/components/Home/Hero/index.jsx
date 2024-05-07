@@ -12,7 +12,7 @@ const Hero = () => {
       <Heading />
       <div className="flex relative  w-full  flex-wrap pt-28 justify-center gap-20 xl:gap-48 mb-20 bg-[url('/img/hero-right-bg.png')] bg-right-bottom bg-no-repeat  ">
         {/* Left section  */}
-        <div className="relative ml-6 ">
+        <div className="md:relative ml-6 ">
           <Image
             src="/img/hero.png"
             width={500}
@@ -21,7 +21,7 @@ const Hero = () => {
             alt="Hero"
           />
           <WhiteCard />
-          <div className="h-20 shadow-lg w-[230px] rounded-full flex items-center  absolute  top-[78%] -left-[12%] bg-white ">
+          <div className="h-20 shadow-lg w-[230px] rounded-full items-center hidden md:flex   md:absolute  top-[78%] -left-[12%] bg-white ">
             <Image
               src="/img/jet.png"
               width={50}
@@ -37,14 +37,14 @@ const Hero = () => {
           <GreenCard />
         </div>
         {/* Right section */}
-        <div className="w-1/3 flex flex-wrap  mt-20 flex-col ">
+        <div className="mx-3 md:mx-0 md:w-1/3 flex flex-wrap  md:mt-20 flex-col ">
           <h4 className="text-[40px] font-semibold leading-[120%]">
             Enhance fortune 50 company’s insights teams research capabilities
           </h4>
 
           <CarouselDots className="mt-16" />
 
-          <PrimaryBtn className="mt-28  ">
+          <PrimaryBtn className="mt-10 md:mt-28  ">
             Explore More{" "}
             <Image
               src="/img/arrow.svg"

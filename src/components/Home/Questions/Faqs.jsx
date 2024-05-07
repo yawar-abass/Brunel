@@ -11,8 +11,8 @@ const Faqs = () => {
   };
 
   return (
-    <div className="container mx-auto px-4   py-8">
-      <div className="grid grid-cols-1 gap-4 pr-20">
+    <div className="container mx-auto md:px-4   md:py-8">
+      <div className="grid grid-cols-1 gap-4 p-6 md:pr-20">
         {faqs.map((faq, index) => (
           <FAQItem
             key={index}

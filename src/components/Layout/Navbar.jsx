@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify justify-between m-4 py-3 px-7 items-center border-2 border-[#EAEAEA] rounded-full  container max-w-screen-xl mx-auto ">
+    <nav className="flex justify justify-between m-4 py-3 px-2 md:px-7 items-center border-2 border-[#EAEAEA] rounded-full  container max-w-screen-xl mx-auto ">
       <div>
         <Link href="/">
           <Image
@@ -20,7 +20,9 @@ const Navbar = () => {
       </div>
       <div className="space-x-4">
         <SecondaryBtn href="/register" />
-        <PrimaryBtn>Onboard Talent</PrimaryBtn>
+        <PrimaryBtn className="hidden md:inline-block">
+          Onboard Talent
+        </PrimaryBtn>
       </div>
     </nav>
   );

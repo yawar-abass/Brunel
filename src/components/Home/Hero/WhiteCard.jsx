@@ -3,7 +3,7 @@ import React from "react";
 
 const WhiteCard = () => {
   return (
-    <div className="bg-white shadow-xl w-64 absolute top-[24%] -left-[30%] p-7  rounded-[27px]">
+    <div className="bg-white shadow-xl my-3 md:my-0 md:w-64 md:absolute  top-[24%] -left-[30%] p-7  rounded-[27px]">
       <div className="relative">
         <Image
           src="/img/spark.svg"

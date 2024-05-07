@@ -7,7 +7,7 @@ const Heading = () => {
       <p className={`${covered_font.className} text-4xl text-[#2DA950]`}>
         Success stories
       </p>
-      <h1 className="text-[56px] text-center font-medium leading-[120%]">
+      <h1 className="text-3xl md:text-[56px] text-center font-medium leading-[120%]">
         Every success journey <br /> we’ve encountered.
       </h1>
     </div>

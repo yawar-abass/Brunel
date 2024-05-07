@@ -3,11 +3,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mx-20 mb-6 flex justify-between bg-[#F5F5F5] py-10 px-10 items-center rounded-[40px]">
+    <div className="md:mx-20 mx-2 mb-6 flex flex-col md:flex-row justify-between bg-[#F5F5F5] py-10 px-10 items-center rounded-[40px]">
       <p className="font-medium flex items-center text-lg">
-        <span className="pr-2 text-2xl">©</span> Talup 2023. All rights reserved
+        <span className="md:pr-2 md:text-2xl">©</span> Talup 2023. All rights
+        reserved
       </p>
-      <div className="space-x-10">
+      <div className="md:space-x-10 space-x-3">
         <Link
           href=""
           className="text-[#1C1C1C] font-medium underline underline-offset-1 underline-[#1C1C1C]"
